@@ -985,7 +985,7 @@ data.forEach((data)=>{
 
 const scores= data.filter((d)=> d.score > 8);
 scores.forEach((score)=>{
-  console.log(score.title)
+  console.log(score.title);
 })
 
 
